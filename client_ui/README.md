@@ -10,6 +10,8 @@ START UI : cd client_ui - npm i - npm start
 
 *note" please keep the server running 
 
-!!! Please fill in the form at Phone Number the value: +19724681190 (trial account twilio)
---> Receive LOGIN VERIFICATION CODE here https://smsreceivefree.com/info/19724681190/?fbclid=IwAR15wWbgiigBhgwdSZhevUra-Rgzpqm-5eLvYEASyboKv_LtRtfoQM7Dygk (fake phone has real sim(the verified phone number) can receive message online)
+<!-- !!! Please fill in the form at Phone Number the value: +19724681190 (trial account twilio)
+--> Receive LOGIN VERIFICATION CODE here https://smsreceivefree.com/info/19724681190/?fbclid=IwAR15wWbgiigBhgwdSZhevUra-Rgzpqm-5eLvYEASyboKv_LtRtfoQM7Dygk (fake phone has real sim(the verified phone number) can receive message online) -->
+
+<!-- twilio maybe temporary disable twilio api key because the privacy  -->
 
