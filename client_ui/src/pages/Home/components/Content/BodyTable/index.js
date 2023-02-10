@@ -20,11 +20,16 @@ function BodyTable({list}) {
         formData.append('phone_number',localStorage.getItem('phone'))
         formData.append('github_user_id',data)
         addRemove(formData)
+        console.log(arrayChoose)
     }
 
     useEffect(()=>{
         favListId(localStorage.getItem('phone'), setArrayChoose)
     },[])
+
+    useEffect(()=>{
+        console.log(arrayChoose)
+    },[arrayChoose])
 
     return ( 
         list ? 

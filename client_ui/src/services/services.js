@@ -40,8 +40,9 @@ export const favListId = async (phone, setArrayChoose) => {
                 phone
             }
         })
-        console.log(info)
-        setArrayChoose(info.favList)
+        if (info.favList){
+            setArrayChoose(info.favList)
+        }
     } catch (error) {
         console.log(error)
     }
