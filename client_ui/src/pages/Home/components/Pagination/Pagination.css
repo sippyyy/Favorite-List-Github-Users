@@ -1,0 +1,9 @@
+.li +.li{
+ margin-left: 5px;
+
+}
+
+.li{
+    min-width: 25px;
+    height: 25px;
+}

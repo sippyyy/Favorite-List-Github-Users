@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    margin:0;
+    font-size: 1.3rem;
+}
+
+input,button{
+    outline:none;
+}
+
+p,h1,h2,h3,h4,h5{
+    margin:0 
+}
+
+
+.container{
+    max-width: 1140px;
+}
+
+.flex{
+    display:flex
+}
+
+.flex-mid{
+    justify-content:center;
+    align-items:center;
+}
+
+.flex-end{
+    justify-content:flex-end;
+}
+
+.flex-start{
+    justify-content:start
+}
+
+.flex-col{
+    flex-direction:column;
+}
+
+.font-max{
+    font-size:2rem;
+}
+
+.font-mid{
+    font-size: 1.6rem;
+}
+
+.font-text{
+    font-size: 1.1rem;
+}
+
+
+.padding-max{
+    padding: 10px
+}
+
+.padding-mid{
+    padding: 5px
+}
+
+.padding-normal{
+    padding:3px;
+}
+
+.radius{
+    border-radius: 8px;
+}
+
+.box-shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.center-text{
+    text-align:center;
+}
+
+.border{
+    border: 1px solid rgba(0,0,0,0.3)
+}
+
+.dark-purple{
+    color: #221b49;
+}
+
+
+.med-purple{
+    color:#5847b9
+}
+
+.med-purple-bg{
+    background-color:#5847b9;
+}
+
+.light-purple{
+    color:#9888f5
+}
+
+.light-purple-bg{
+    background-color:#c7c2e3;
+    
+}
+.dark-purple-bg{
+    background-color: #221b49;
+}
+
+.white-color{
+    color: #fff;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.full-height{
+    height:100%;
+}
+
+.circle{
+    border-radius: 100%;
+}
+
+.none-margin{
+    margin:0;
+}
+
+.full-flex{
+    flex:1;
+}
+
+.margin-bar{
+    margin-top: 60px;
+    overflow-x: auto;
+}
+
+th,td{
+    vertical-align:middle;
+    text-align:center !important;
+}
+
+.text-limited{
+    width: 73px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+@media (min-width: 585px) {
+    .text-limited{
+        width: 100px;
+    }
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+a{
+    display: flex;
+    text-decoration:none !important;
+    color: unset;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+.margin-left-10{
+    margin-left:10px;
+}
+
+.margin-right-10{
+    margin-right: 10px
+}
+
+.red{
+    color: red;
+}
+
+.light-gray{
+    background-color: #ededed;
+}
+
+.hideTextLimited{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

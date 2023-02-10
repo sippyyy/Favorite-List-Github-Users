@@ -1,0 +1,19 @@
+.fixed-form{
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+}
+
+.form{
+    padding: 20px 10px;
+}
+
+.topic{
+    margin: 10px 0;
+}
+
+.bottom{
+    align-items:flex-end !important;
+}
