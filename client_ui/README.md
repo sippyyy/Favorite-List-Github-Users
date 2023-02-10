@@ -2,7 +2,7 @@
 
 clone repo then run code
 
-open terminal at the root file:
+open terminal at the root file and enter the terminal as these commands:
 START SERVER :  cd server - npm i - npm run dev
 
 open other terminal at the root file:
