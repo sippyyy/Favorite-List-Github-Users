@@ -13,8 +13,11 @@ function Profile() {
 
     useEffect(()=>{
         getUserProfile(localStorage.getItem('phone'),setListFav)
-        setData(listFav[0])
     },[])
+
+    useEffect(()=>{
+        setData(listFav[0])
+    }, [listFav])
     
     return ( 
         <div>
@@ -41,7 +44,7 @@ function Profile() {
                 <ul className='info'>
                     {listFav.map((list,index)=>(
                         <li key={index} className='font-mid' onClick={() => handleChooseId(list)}>
-                            {list.id}
+                            {list.id} click to see detail profile
                         </li>
                     ))}
                 </ul>

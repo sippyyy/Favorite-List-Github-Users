@@ -55,8 +55,7 @@ export const getUserProfile = async (phone_number, setListFav) => {
                 phone_number
             }
         })
-        console.log(info)
-        // setListFav(info.favorite_github_users)
+        setListFav(info.favorite_github_users)
     } catch (error) {
         console.log(error)
     }
