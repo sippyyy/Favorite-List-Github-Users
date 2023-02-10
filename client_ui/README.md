@@ -1,12 +1,12 @@
 # GETTING STARTED WITH FAVORITE LIST GITHUB FAVORITE USERS
 
-clone repo then run your code
+clone repo then run code
 
 open terminal at the root file:
-START SERVER :  cd server - npm run dev
+START SERVER :  cd server - npm i - npm run dev
 
 open other terminal at the root file:
-START UI : cd client_ui - npm start
+START UI : cd client_ui - npm i - npm start
 
 *note" please keep the server running 
 
